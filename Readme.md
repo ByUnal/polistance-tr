@@ -35,7 +35,8 @@ We provide `main.py` as the primary script for fine-tuning pre-trained transform
 
 ### Key Files:
 - `main.py`: Main script for model fine-tuning on Turkish stance detection.
-- Turkish stance detection dataset: A unique dataset with stance labels for **Favor**, **Against**, and **Neutral**.
+- `preprocess.py`: Includes necessary scripts for preprocessing.
+- Jupyten Notebook file which includes all necessary codes for both training and evaluation can be found in `notebook/` folder.
 
 
 ## How to Use
@@ -55,3 +56,6 @@ We provide `main.py` as the primary script for fine-tuning pre-trained transform
 
 if you want to push the model after fine-tuning to HuggingFace enter the repository name by using ``--hf_repo_name`` 
 environment variable.
+
+## Pre-trained Models
+Transformer-based Fine-tuned models can be reached via my [HuggingFace profile](https://huggingface.co/byunal).
