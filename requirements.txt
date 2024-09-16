@@ -1,0 +1,6 @@
+transformers
+pandas
+nltk
+datasets
+vngrs-nlp
+scikit-learn
